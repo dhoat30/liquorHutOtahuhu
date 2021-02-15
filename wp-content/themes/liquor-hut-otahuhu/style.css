@@ -10,6 +10,16 @@
 @import 'css/slider.css';
 @import 'css/animate.css';
 
+/*woocommerce */ 
+@import 'css/woocommerce/account.css'; 
+@import 'css/woocommerce/account.css'; 
+@import 'css/woocommerce/cart.css';
+@import 'css/woocommerce/checkout.css'; 
+@import 'css/woocommerce/single-product.css'; 
+@import 'css/woocommerce/woocommerce-archive.css'; 
+
+
+
 /*@import 'css/flaticon.css';*/
 
 

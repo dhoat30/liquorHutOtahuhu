@@ -190,7 +190,7 @@ get_header();
                                         </div>
                                     </div>
                                     <div class="product_info">
-                                        <h6 class="product_title"><a href="#"><?php the_title();?></a></h6>
+                                        <h6 class="product_title"><a href="<?php echo get_the_permalink();?>"><?php the_title();?></a></h6>
                                         <div class="product_price">
                                             <?php 
                                                 if( $product->get_sale_price()){

@@ -16,9 +16,6 @@ $('.special-page-nav .nav-item').on('click', (e) => {
     $(e.target).addClass('active');
 })
 
-$('.product_info a').on('click', (e) => {
-        e.preventDefault();
-    })
     //change store button 
 $('.change-store-btn').on('click', (e) => {
     e.preventDefault();

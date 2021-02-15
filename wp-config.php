@@ -22,7 +22,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
-	define( 'DB_NAME', 'liquorHutOtahuhu' );
+	define( 'DB_NAME', 'liquor_hut_otahuhu' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', '127.0.0.1' );
@@ -58,7 +58,10 @@ define( 'AUTH_SALT',        '~$zA<o!E3ml$o}2Apiv2RL2RLr^wT+w#EJc [w+T*^D/[2/sFwn
 define( 'SECURE_AUTH_SALT', 'Y;3JxbodigV{-3OTE00C8v(L9DGOu<jwIwZS@pvJ3/<~u2U3V2ZNGsCjd-$)no@n' );
 define( 'LOGGED_IN_SALT',   ';l Xb)czfM}P1kG~}?}_gr^vCC_A#O(voDK$((Wbia5.&#NR6Kg#sO5C;k+X4#CC' );
 define( 'NONCE_SALT',       '{MqN5Laqaf,j%ba%!>FKr5-Q!an^Htf:C8qLMIilY>A%KJfyO*hT8YPLT5*Z w;o' );
-
+	define('ADMIN_COOKIE_PATH', '/');
+	define('COOKIE_DOMAIN', '');
+	define('COOKIEPATH', '');
+	define('SITECOOKIEPATH', ''); 
 /**#@-*/
 
 /**
